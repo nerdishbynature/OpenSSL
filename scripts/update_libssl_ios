@@ -6,15 +6,9 @@ source "${SCRIPT_DIR}/ios_build_functions.sh"
 
 function setup ()
 {
-    if [ -f "${ROOT_PATH}/External/ios-openssl/lib/libssl.a" ] && [ -f "${ROOT_PATH}/External/ios-openssl/lib/libcrypto.a" ] && [ -d "${ROOT_PATH}/External/ios-openssl/include" ]
-    then
-        echo "No update needed."
-        exit 0
-    fi
 
     LIBRARY_NAME="OpenSSL"
-
-    rm -rf "${ROOT_PATH}/External/ios-openssl/include" "External/ios-openssl/lib"
+    rm -rf "${ROOT_PATH}/External/ios-openssl/include" "External/ios-openssl/lib*"
 }
 
 function cleanup () 
