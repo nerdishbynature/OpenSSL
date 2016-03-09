@@ -108,7 +108,6 @@
 		2359D3111B49AC5B00D85305 /* OpenSSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359D2371B49A4BA00D85305 /* OpenSSLTests.m */; };
 		2359D3121B49AD5000D85305 /* OpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2359D2251B49A4B900D85305 /* OpenSSL.framework */; };
 		2359D3131B49AD5000D85305 /* OpenSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2359D2251B49A4B900D85305 /* OpenSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23A0677F1C8FF852009F1650 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 23A0677E1C8FF852009F1650 /* scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -627,7 +626,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A0677F1C8FF852009F1650 /* scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
