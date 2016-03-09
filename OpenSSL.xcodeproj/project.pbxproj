@@ -108,6 +108,7 @@
 		2359D3111B49AC5B00D85305 /* OpenSSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359D2371B49A4BA00D85305 /* OpenSSLTests.m */; };
 		2359D3121B49AD5000D85305 /* OpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2359D2251B49A4B900D85305 /* OpenSSL.framework */; };
 		2359D3131B49AD5000D85305 /* OpenSSL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2359D2251B49A4B900D85305 /* OpenSSL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23A0677F1C8FF852009F1650 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 23A0677E1C8FF852009F1650 /* scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,6 +245,7 @@
 		2359D2FC1B49AC1B00D85305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2359D3021B49AC1B00D85305 /* OpenSSLAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSSLAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2359D3071B49AC1B00D85305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A0677E1C8FF852009F1650 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +279,7 @@
 		2359D21B1B49A4B900D85305 = {
 			isa = PBXGroup;
 			children = (
+				23A0677E1C8FF852009F1650 /* scripts */,
 				2359D2271B49A4B900D85305 /* OpenSSL */,
 				2359D2EB1B49AC1B00D85305 /* OpenSSLApp */,
 				2359D3051B49AC1B00D85305 /* OpenSSLAppTests */,
@@ -624,6 +627,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A0677F1C8FF852009F1650 /* scripts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,6 +978,7 @@
 				2359D2431B49A51700D85305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2359D30A1B49AC1B00D85305 /* Build configuration list for PBXNativeTarget "OpenSSLApp" */ = {
 			isa = XCConfigurationList;
@@ -982,6 +987,7 @@
 				2359D30C1B49AC1B00D85305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2359D30D1B49AC1B00D85305 /* Build configuration list for PBXNativeTarget "OpenSSLAppTests" */ = {
 			isa = XCConfigurationList;
@@ -990,6 +996,7 @@
 				2359D30F1B49AC1B00D85305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
